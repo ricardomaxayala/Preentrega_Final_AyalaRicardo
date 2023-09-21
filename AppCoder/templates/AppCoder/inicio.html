@@ -1,0 +1,19 @@
+{% extends "AppCoder/padre.html" %}
+
+
+
+
+{% block contenidoQueCambia %} 
+
+{% if mensaje %}
+    <p>
+        {{mensaje}}
+    </p>
+
+{% endif %}
+
+
+<h1 style="color: red; font-family: Verdana, Geneva, Tahoma, sans-serif; font-weight: bold;"> Bienvenidos al inicio de mi Proyecto!</h1>
+<p style="color: blueviolet; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;"> Esta es mi primera pagina web en python</p>
+<img src="https://www.sorprendelima.pe/cdn/shop/articles/MAY3373_1445x.jpg?v=1664254563" style="width: 150px;height: 150px;">
+{% endblock %}
